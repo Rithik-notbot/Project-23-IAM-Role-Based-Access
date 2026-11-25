@@ -32,7 +32,16 @@ Configure an AWS IAM role for an EC2 instance so it can access a specific S3 buc
 - `.gitignore` — Excludes Terraform state and sensitive files.
 
 ## Status
-Terraform configuration prepared. Validation and planning pending. AWS deployment and S3 access testing pending company approval.
+
+- Terraform configuration prepared.
+- EC2 IAM role and instance profile configured.
+- S3 permissions configured for bucket listing and object read/write.
+- EC2 security group configured without inbound access.
+- Amazon Linux AMI filter corrected.
+- Terraform formatting completed.
+- Terraform validation successful.
+- AWS deployment and live S3 access testing pending account access and approval.
+- EC2-to-S3 verification evidence pending.
 
 ## Deliverables
 - Terraform source code in GitHub.
